@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schema.zeabur.app/template.json",
+  "name": "GoldPriceTrack",
+  "description": "贵金属价格追踪 PWA 应用",
+  "services": [
+    {
+      "name": "web",
+      "type": "PREBUILT",
+      "prebuilt": {
+        "image": "python:3.11-slim",
+        "command": "bash start.sh"
+      },
+      "source": {
+        "type": "git",
+        "url": "https://github.com/realfash/GoldPriceTrack"
+      }
+    }
+  ]
+}

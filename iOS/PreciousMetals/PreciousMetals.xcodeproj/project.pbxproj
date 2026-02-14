@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A1000001 /* PreciousMetalsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000001 /* PreciousMetalsApp.swift */; };
-		A1000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000002 /* ContentView.swift */; };
-		A1000003 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000003 /* ChartView.swift */; };
-		A1000004 /* MetalPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000005 /* MetalPrice.swift */; };
-		A1000005 /* MetalPriceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000006 /* MetalPriceService.swift */; };
-		A1000006 /* MetalPriceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000007 /* MetalPriceViewModel.swift */; };
-		A2000001 /* PreciousMetalsWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000001 /* PreciousMetalsWidget.swift */; };
+		A1000001 /* PreciousMetalsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000001; };
+		A1000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000002; };
+		A1000003 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000003; };
+		A1000004 /* MetalPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000005; };
+		A1000005 /* MetalPriceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000006; };
+		A1000006 /* MetalPriceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000007; };
+		A2000001 /* PreciousMetalsWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2000001; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -128,7 +128,7 @@
 /* Begin PBXNativeTarget section */
 		F1000001 /* PreciousMetals */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = G1000001 /* Build configuration list for PBXNativeTarget "PreciousMetals" */;
+			buildConfigurationList = G1000001;
 			buildPhases = (
 				H1000001 /* Sources */,
 				D1000001 /* Frameworks */,
@@ -144,7 +144,7 @@
 		};
 		F1000002 /* PreciousMetalsWidgetExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = G1000002 /* Build configuration list for PBXNativeTarget "PreciousMetalsWidgetExtension" */;
+			buildConfigurationList = G1000002;
 			buildPhases = (
 				H1000002 /* Sources */,
 				D1000002 /* Frameworks */,
@@ -176,12 +176,12 @@
 					};
 				};
 			};
-			buildConfigurationList = G1000003 /* Build configuration list for PBXProject "PreciousMetals" */;
+			buildConfigurationList = G1000003;
 			compatibilityVersion = "Xcode 14.0";
-			developmentRegion = "zh-Hans";
+			developmentRegion = zh-Hans;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				"zh-Hans",
+				zh-Hans,
 				en,
 				Base,
 			);
@@ -347,7 +347,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = W8C4ZJQ3TG;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PreciousMetals/Info.plist;
@@ -358,7 +358,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -379,7 +379,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = W8C4ZJQ3TG;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PreciousMetals/Info.plist;
@@ -390,7 +390,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
