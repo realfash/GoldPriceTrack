@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+.env
+.DS_Store
+*.log
+iOS/
+node_modules/
+package.json
+server.js
+generate_icons.py
